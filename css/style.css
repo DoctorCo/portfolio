@@ -1,0 +1,35 @@
+/*font-family: 'Domine', serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@700&display=swap');
+/*font-family: 'Anton', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+/*font-family: 'Josefin Sans', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.avatar {
+    border-radius: 50%;
+    border: 5px solid white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  h1{
+      color: white;
+      font-size: 3rem;
+      text-align: center;
+      font-family: 'Anton', sans-serif;
+  }
+  p{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
